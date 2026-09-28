@@ -177,14 +177,15 @@ AirCard-iOS-l10n/
 
 - **다국어 지원**: [@Francis-G-Liu](https://github.com/Francis-G-Liu)가 업스트림을 기반으로 중국어 간체, 중국어 번체, 일본어, 한국어, 러시아어 지원을 추가했습니다.
 
-## 업스트림 작성자 후원
+## 프로젝트 후원
 
-아래 기부 채널은 **모두 업스트림 프로젝트 작성자 [@mak5er](https://github.com/mak5er)의 것이며**, 본 저장소 관리자와는 무관합니다. 본 저장소는 어떤 형태의 기부도 받지 않습니다. 이 프로젝트의 지속적인 개발을 지원하고 싶으시다면 후원을 업스트림에 전해 주세요.
+### 업스트림 작성자 후원
 
-- **PayPal**: [Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y)
-- **TON**: `UQBm9KPhtMw-XVVjirUoa09wzrlyWsbeZhKfefl1Uw-qNZ-r`
-- **USDT (TRC20)**: `TDkDMCyjYxgvkWUnQiF5Erk2RyPQMT6G1n`
-- **USDT / BNB (BEP20)**: `0x0954dc491c502849d04956ef74634aa5931a08e8`
+AirCard-iOS의 모든 기능은 업스트림에서 비롯되었습니다. 이 프로젝트의 지속적인 개발을 지원하고 싶으시다면 업스트림 저장소 **[Mak5er/AirCard-iOS](https://github.com/Mak5er/AirCard-iOS)** 로 가 주세요. 후원 방법은 업스트림 README를 참고하세요. 본 저장소는 기부를 받지 않습니다.
+
+### 본 한글화 버전 후원
+
+후원 채널은 아직 설정되지 않았습니다.
 
 ## 라이선스
 

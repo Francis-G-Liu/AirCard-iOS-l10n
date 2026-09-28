@@ -177,14 +177,15 @@ Every feature in this repository comes from upstream; credit belongs as follows 
 
 - **Localization**: Simplified Chinese, Traditional Chinese, Japanese, Korean and Russian support added by [@Francis-G-Liu](https://github.com/Francis-G-Liu) on top of upstream.
 
-## Supporting the upstream author
+## Supporting the project
 
-The donation channels below **all belong to the upstream project author [@mak5er](https://github.com/mak5er)** and are unrelated to the maintainer of this fork. This fork accepts no donations of any kind. If you want to support continued development of this project, please direct your support upstream.
+### Supporting the upstream author
 
-- **PayPal**: [Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y)
-- **TON**: `UQBm9KPhtMw-XVVjirUoa09wzrlyWsbeZhKfefl1Uw-qNZ-r`
-- **USDT (TRC20)**: `TDkDMCyjYxgvkWUnQiF5Erk2RyPQMT6G1n`
-- **USDT / BNB (BEP20)**: `0x0954dc491c502849d04956ef74634aa5931a08e8`
+Every feature in AirCard-iOS comes from upstream. If you want to support continued development, please go to the upstream repository **[Mak5er/AirCard-iOS](https://github.com/Mak5er/AirCard-iOS)**; donation channels are listed in the upstream README. This fork accepts no donations.
+
+### Supporting this fork
+
+No donation channels are set up yet.
 
 ## License
 

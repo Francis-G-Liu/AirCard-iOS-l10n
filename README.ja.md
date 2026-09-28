@@ -177,14 +177,15 @@ AirCard-iOS-l10n/
 
 - **多言語対応**：[@Francis-G-Liu](https://github.com/Francis-G-Liu) が上流をベースに簡体字中国語、繁体字中国語、日本語、韓国語、ロシア語のサポートを追加しました。
 
-## 上流作者のサポート
+## プロジェクトの支援
 
-以下の寄付先は**すべて上流プロジェクトの作者 [@mak5er](https://github.com/mak5er) のものであり、本リポジトリのメンテナとは無関係です**。本リポジトリはいかなる形の寄付も受け付けません。このプロジェクトの継続的な開発を支援したい場合は、上流へ支援をお願いします。
+### 上流作者の支援
 
-- **PayPal**：[Donate via PayPal](https://www.paypal.com/donate/?hosted_button_id=98QRTC2HFRA4Y)
-- **TON**：`UQBm9KPhtMw-XVVjirUoa09wzrlyWsbeZhKfefl1Uw-qNZ-r`
-- **USDT (TRC20)**：`TDkDMCyjYxgvkWUnQiF5Erk2RyPQMT6G1n`
-- **USDT / BNB (BEP20)**：`0x0954dc491c502849d04956ef74634aa5931a08e8`
+AirCard-iOS のすべての機能は上流に由来します。このプロジェクトの継続的な開発を支援したい場合は、上流リポジトリ **[Mak5er/AirCard-iOS](https://github.com/Mak5er/AirCard-iOS)** へお願いします。支援方法は上流の README をご覧ください。本リポジトリは寄付を受け付けていません。
+
+### 本リポジトリ（日本語化版）の支援
+
+支援方法は現在のところ未設定です。
 
 ## ライセンス
 

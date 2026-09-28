@@ -556,7 +556,7 @@ struct PairingTab: View {
                                     .font(.subheadline.weight(.medium))
                                     .foregroundStyle(
                                         vm.pairingStatus.contains("✅") ? .green :
-                                        vm.pairingStatus.contains("❌") || vm.pairingStatus.contains("failed") ? .red :
+                                        vm.pairingStatus.contains("❌") || vm.pairingFailed ? .red :
                                         .secondary
                                     )
                                     .multilineTextAlignment(.center)
@@ -668,9 +668,17 @@ struct VPNStatusRow: View {
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     }
-                    Link("Launch LocalDevVPN",
-                         destination: URL(string: "localdevvpn://")!)
-                        .font(.caption.bold())
+                    Button {
+                        let appURL = URL(string: "localdevvpn://")!
+                        if UIApplication.shared.canOpenURL(appURL) {
+                            UIApplication.shared.open(appURL)
+                        } else if let storeURL = URL(string: "https://apps.apple.com/in/app/localdevvpn/id6755608044") {
+                            UIApplication.shared.open(storeURL)
+                        }
+                    } label: {
+                        Text("Launch LocalDevVPN")
+                            .font(.caption.bold())
+                    }
                 }
                 .padding(10)
                 .background(Color.orange.opacity(0.08))
@@ -1106,7 +1114,7 @@ struct WalletCardsTab: View {
                 }
                 Text(vm.scanStatusText)
                     .font(.caption)
-                    .foregroundStyle(vm.scanStatusText.contains("stopped") || vm.scanStatusText.contains("error") ? .orange : .secondary)
+                    .foregroundStyle(vm.scanStatusIsWarning ? .orange : .secondary)
             }
             .padding(14)
             .background(vm.isScanningCards ? Color.blue.opacity(0.12) : Color(uiColor: .secondarySystemBackground))
@@ -1324,7 +1332,7 @@ struct PasscodeThemeTab: View {
                 Section {
                     Picker("Mode", selection: $vm.passcodeMode) {
                         ForEach(CreatorMode.allCases) { mode in
-                            Text(mode.rawValue).tag(mode)
+                            Text(mode.displayName).tag(mode)
                         }
                     }
                     .pickerStyle(.segmented)
@@ -1438,7 +1446,7 @@ struct ApplyThemeSection: View {
 
             Section("Theme Information") {
                 LabeledContent("Files in theme", value: "\(theme.fileCount)")
-                LabeledContent("Digits styled", value: "\(theme.keysPreview.count) keys")
+                LabeledContent("Digits styled", value: String(format: NSLocalizedString("%lld keys", comment: "Theme info digit count"), theme.keysPreview.count))
 
                 Button {
                     vm.adoptThemeIntoCreator()
@@ -1564,7 +1572,7 @@ struct PasscodeTargetSection: View {
                         .foregroundColor(.secondary)
                     Picker("System Language", selection: $vm.passcodeLanguageTarget) {
                         ForEach(PasscodeLanguageTarget.allCases) { item in
-                            Text(item.rawValue).tag(item)
+                            Text(item.displayName).tag(item)
                         }
                     }
                     .pickerStyle(.menu)
@@ -1580,7 +1588,7 @@ struct PasscodeTargetSection: View {
                         .foregroundColor(.secondary)
                     Picker("Font Weight / Style", selection: $vm.passcodeBoldTarget) {
                         ForEach(PasscodeBoldTarget.allCases) { item in
-                            Text(item.rawValue).tag(item)
+                            Text(item.displayName).tag(item)
                         }
                     }
                     .pickerStyle(.menu)
@@ -1600,7 +1608,7 @@ struct PasscodeTargetSection: View {
                             .foregroundColor(.secondary)
                             .fixedSize(horizontal: false, vertical: true)
                     } else {
-                        Text("Fast mode selected: only targets \(vm.passcodeLanguageTarget.rawValue) with \(vm.passcodeBoldTarget.rawValue).")
+                        Text("Fast mode selected: only targets \(vm.passcodeLanguageTarget.displayName) with \(vm.passcodeBoldTarget.displayName).")
                             .font(.caption2)
                             .foregroundColor(.primary)
                             .fixedSize(horizontal: false, vertical: true)
@@ -1631,7 +1639,7 @@ struct ThemeCreatorSection: View {
         Section("Slice Mode") {
             Picker("", selection: $vm.sliceMode) {
                 ForEach(SliceMode.allCases) { m in
-                    Text(m.rawValue).tag(m)
+                    Text(m.displayName).tag(m)
                 }
             }
             .pickerStyle(.segmented)
@@ -1796,7 +1804,7 @@ struct ThemeCreatorSection: View {
                                 .foregroundColor(.secondary)
                                 .font(.caption)
 
-                            Text(String(format: "%.1fx", vm.posterZoom))
+                            Text(String(format: NSLocalizedString("%.1fx", comment: "Poster zoom factor"), vm.posterZoom))
                                 .font(.system(size: 12, weight: .semibold, design: .monospaced))
                                 .frame(width: 38, alignment: .trailing)
                         }

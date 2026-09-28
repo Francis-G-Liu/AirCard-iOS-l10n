@@ -151,7 +151,7 @@ struct TendiesView: View {
                                 HStack(spacing: 8) {
                                     Spacer()
                                     Image(systemName: "sparkles")
-                                    Text("Flash \(selectedCount) Wallpaper\(selectedCount == 1 ? "" : "s")")
+                                    Text("Flash \(selectedCount) Wallpaper(s)")
                                     Spacer()
                                 }
                                 .font(.headline)
@@ -283,7 +283,7 @@ struct TendieRowView: View {
                     .lineLimit(1)
 
                 HStack(spacing: 6) {
-                    Text(item.posterType.rawValue)
+                    Text(item.posterType.displayName)
                         .font(.caption2.bold())
                         .foregroundColor(item.posterType.badgeColor)
 
@@ -291,7 +291,7 @@ struct TendieRowView: View {
                         .font(.caption2)
                         .foregroundColor(.secondary)
 
-                    Text("\(item.descriptorCount) item\(item.descriptorCount == 1 ? "" : "s")")
+                    Text("\(item.descriptorCount) item(s)")
                         .font(.caption2)
                         .foregroundColor(.secondary)
                 }
@@ -347,12 +347,14 @@ struct TendieDetailSheet: View {
                 Section("Information") {
                     detailRow(title: "Name", value: item.name)
                     detailRow(title: "File Name", value: item.fileName)
-                    detailRow(title: "Type", value: item.posterType.rawValue)
+                    detailRow(title: "Type", value: item.posterType.displayName)
                     detailRow(title: "Descriptors", value: "\(item.descriptorCount)")
                     detailRow(title: "Target Extension", value: item.posterType.extensionBundleId)
-                    detailRow(title: "Format", value: item.isContainer ? "App Container" : "Descriptor Archive")
+                    detailRow(title: "Format", value: item.isContainer
+                              ? NSLocalizedString("App Container", comment: "Tendies archive format")
+                              : NSLocalizedString("Descriptor Archive", comment: "Tendies archive format"))
                     if item.unsafeContainer {
-                        detailRow(title: "Warning", value: "Contains SQLite database")
+                        detailRow(title: "Warning", value: NSLocalizedString("Contains SQLite database", comment: "Tendies warning"))
                     }
                 }
             }
@@ -368,7 +370,7 @@ struct TendieDetailSheet: View {
         }
     }
 
-    private func detailRow(title: String, value: String) -> some View {
+    private func detailRow(title: LocalizedStringKey, value: String) -> some View {
         HStack {
             Text(title)
                 .font(.subheadline)

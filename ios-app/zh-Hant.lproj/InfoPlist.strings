@@ -1,0 +1,5 @@
+/* AirCard-iOS — 繁體中文（Info.plist 本地化）
+   僅本地化系統權限說明文案；CFBundleDisplayName（品牌名）不翻譯。 */
+
+NSLocalNetworkUsageDescription = "AirCard-iOS 會廣播裝置本機的配對服務，讓這台 iPhone 能與自身配對，並連線本機 lockdown 守護程式以執行漏洞利用。";
+NSPhotoLibraryUsageDescription = "AirCard-iOS 需要照片存取權限，以便套用自訂卡片面板與密碼鍵盤主題。";

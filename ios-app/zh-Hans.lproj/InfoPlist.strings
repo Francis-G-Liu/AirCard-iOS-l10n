@@ -1,0 +1,5 @@
+/* AirCard-iOS — 简体中文（Info.plist 本地化）
+   仅本地化系统权限说明文案；CFBundleDisplayName（品牌名）不翻译。 */
+
+NSLocalNetworkUsageDescription = "AirCard-iOS 会广播本地配对服务，使这台 iPhone 能与自身配对，并连接本地 lockdown 守护进程以执行漏洞利用。";
+NSPhotoLibraryUsageDescription = "AirCard-iOS 需要照片访问权限，以便应用自定义卡片皮肤与密码键盘主题。";

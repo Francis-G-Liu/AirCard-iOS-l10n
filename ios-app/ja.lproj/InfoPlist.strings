@@ -1,0 +1,5 @@
+/* AirCard-iOS — 日本語（Info.plist のローカライズ）
+   システムの権限説明のみをローカライズします。CFBundleDisplayName（ブランド名）は翻訳しません。 */
+
+NSLocalNetworkUsageDescription = "AirCard-iOS はオンデバイスのペアリングサービスをブロードキャストしてこの iPhone が自身とペアリングできるようにし、ローカルの lockdown デーモンに接続してエクスプロイトを実行します。";
+NSPhotoLibraryUsageDescription = "AirCard-iOS は、カスタムカードスキンとパスコードテーマを適用するために写真へのアクセスを必要とします。";

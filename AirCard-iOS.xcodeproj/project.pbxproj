@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		010AC8DF1C1EED48625C6675 /* TendiesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FCB10A2F3D7CEAED486771 /* TendiesModel.swift */; };
+		1F501F500000000000000007 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F501F500000000000000001 /* InfoPlist.strings */; };
 		2298380CF8CA245F06A363A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F9F55D9C9EC2D4AE16F004 /* Assets.xcassets */; };
 		49063A6C03B1966F92F0915B /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCB2FCB8D4F45B9474A81BC /* AppViewModel.swift */; };
+		4C414C410000000000000007 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C414C410000000000000001 /* Localizable.strings */; };
 		5BCE478E71F6959C81AEF206 /* AirliftFFI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FEDEA9266429D393E42942F /* AirliftFFI.xcframework */; };
 		6565B7F0AF43443DACB0FB9D /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920112F6B415C22F51326996 /* NetworkStatus.swift */; };
 		668FC8BDB3F10AEBFB427382 /* AirCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A31F22848A9E3B541A9ADF5 /* AirCardApp.swift */; };
@@ -25,10 +27,20 @@
 
 /* Begin PBXFileReference section */
 		0A31F22848A9E3B541A9ADF5 /* AirCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirCardApp.swift; sourceTree = "<group>"; };
+		1F501F500000000000000002 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F501F500000000000000003 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1F501F500000000000000004 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F501F500000000000000005 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F501F500000000000000006 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		30060FC4F88D7BF91C2DCD5E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		4C414C410000000000000002 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4C414C410000000000000003 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4C414C410000000000000004 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C414C410000000000000005 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C414C410000000000000006 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4FEDEA9266429D393E42942F /* AirliftFFI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AirliftFFI.xcframework; sourceTree = "<group>"; };
 		54463055E9590B0A928A2697 /* TendiesEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendiesEngine.swift; sourceTree = "<group>"; };
-		55D5D94AD6F7BB50166EAAA8 /* AirCard-iOS.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "AirCard-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D5D94AD6F7BB50166EAAA8 /* AirCard-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirCard-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DCB2FCB8D4F45B9474A81BC /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		744597D526DCBE3516400831 /* RespringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespringHelper.swift; sourceTree = "<group>"; };
 		81FCB10A2F3D7CEAED486771 /* TendiesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TendiesModel.swift; sourceTree = "<group>"; };
@@ -98,6 +110,8 @@
 				81FCB10A2F3D7CEAED486771 /* TendiesModel.swift */,
 				A416E9FC1E5258B289C6DA54 /* TendiesView.swift */,
 				30060FC4F88D7BF91C2DCD5E /* Utilities.swift */,
+				1F501F500000000000000001 /* InfoPlist.strings */,
+				4C414C410000000000000001 /* Localizable.strings */,
 			);
 			path = "ios-app";
 			sourceTree = "<group>";
@@ -134,7 +148,6 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					0E3055F482CF438EA3978552 = {
-						DevelopmentTeam = "";
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,6 +158,11 @@
 			knownRegions = (
 				Base,
 				en,
+				"zh-Hans",
+				"zh-Hant",
+				ru,
+				ja,
+				ko,
 			);
 			mainGroup = 7DE42E877138754E1F23B522;
 			minimizedProjectReferenceProxies = 1;
@@ -164,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2298380CF8CA245F06A363A1 /* Assets.xcassets in Resources */,
+				1F501F500000000000000007 /* InfoPlist.strings in Resources */,
+				4C414C410000000000000007 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,12 +211,40 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		1F501F500000000000000001 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F501F500000000000000002 /* zh-Hans */,
+				1F501F500000000000000003 /* zh-Hant */,
+				1F501F500000000000000004 /* ru */,
+				1F501F500000000000000005 /* ja */,
+				1F501F500000000000000006 /* ko */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C414C410000000000000001 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C414C410000000000000002 /* zh-Hans */,
+				4C414C410000000000000003 /* zh-Hant */,
+				4C414C410000000000000004 /* ru */,
+				4C414C410000000000000005 /* ja */,
+				4C414C410000000000000006 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		00670460AD5802A6A0BF367E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VF668TM8YB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\".\"",
@@ -208,7 +256,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mak5er.aircard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.local;
 				PRODUCT_NAME = "AirCard-iOS";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VF668TM8YB;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\".\"",
@@ -362,7 +411,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mak5er.aircard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.local;
 				PRODUCT_NAME = "AirCard-iOS";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

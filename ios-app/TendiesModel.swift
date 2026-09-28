@@ -13,6 +13,9 @@ public enum TendiePosterType: String, Codable, CaseIterable {
     case mercury = "Mercury"
     case container = "App Container"
 
+    /// Localized label shown in the UI. `rawValue` stays the stable persisted identity.
+    public var displayName: String { NSLocalizedString(rawValue, comment: "Tendies poster type") }
+
     public var systemIcon: String {
         switch self {
         case .collections: return "paintpalette.fill"

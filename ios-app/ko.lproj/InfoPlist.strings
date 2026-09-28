@@ -1,0 +1,5 @@
+/* AirCard-iOS — 한국어 (Info.plist 현지화)
+   시스템 권한 설명만 현지화합니다. CFBundleDisplayName(브랜드 이름)은 번역하지 않습니다. */
+
+NSLocalNetworkUsageDescription = "AirCard-iOS는 온디바이스 페어링 서비스를 브로드캐스트하여 이 iPhone이 자기 자신과 페어링할 수 있게 하고, 로컬 lockdown 데몬에 연결해 익스플로잇을 실행합니다.";
+NSPhotoLibraryUsageDescription = "AirCard-iOS는 사용자 카드 스킨과 암호 테마를 적용하기 위해 사진 접근 권한이 필요합니다.";

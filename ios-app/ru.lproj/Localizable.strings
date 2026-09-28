@@ -1,0 +1,265 @@
+/* ==========================================================================
+   AirCard-iOS — Русский
+   Примечание: базовый язык — английский (source). Ключ — это исходный английский текст;
+   непереведённые ключи автоматически отображаются на английском.
+   Плейсхолдеры должны сохраняться без изменений: %@ (строка)  %lld (целое)  %d (целое)  %.1fx (с плавающей точкой)
+   Названия брендов AirCard-iOS / LocalDevVPN / NeoSpring / PosterBoard / AirTraffic /
+   TelephonyUI / Cowabunga / Nugget и т. п. не переводятся.
+   ========================================================================== */
+
+/* ---------- Перечисления и режимы ---------- */
+"Apply .passthm" = "Применить .passthm";
+"Create Theme" = "Создать тему";
+"Poster Slice" = "Разбиение изображения";
+"Individual Keys" = "Отдельные клавиши";
+
+/* ---------- Целевые языки клавиатуры ---------- */
+"All Languages (Universal)" = "Все языки (универсально)";
+"Ukrainian (uk)" = "Украинский (uk)";
+"Russian (ru)" = "Русский (ru)";
+"English (en)" = "Английский (en)";
+"Other / Fallback" = "Другой / резервный";
+"Spanish (es)" = "Испанский (es)";
+"German (de)" = "Немецкий (de)";
+"French (fr)" = "Французский (fr)";
+"Polish (pl)" = "Польский (pl)";
+"Italian (it)" = "Итальянский (it)";
+"Portuguese (pt)" = "Португальский (pt)";
+"Turkish (tr)" = "Турецкий (tr)";
+"Japanese (ja)" = "Японский (ja)";
+"Korean (ko)" = "Корейский (ko)";
+"Chinese (zh)" = "Китайский (zh)";
+"Arabic (ar)" = "Арабский (ar)";
+"Hebrew (he)" = "Иврит (he)";
+
+/* ---------- Насыщенность / стиль ---------- */
+"Universal (Regular + Bold)" = "Универсально (обычный + жирный)";
+"Bold Text Only (Fast)" = "Только жирный текст (быстро)";
+"Regular Font Only (Fast)" = "Только обычный шрифт (быстро)";
+
+/* ---------- Сопряжение: состояния и ошибки ---------- */
+"Pairing is already in progress." = "Сопряжение уже выполняется.";
+"Local Network permission is off. Enable it in Settings › AirCard-iOS › Local Network." = "Разрешение «Локальная сеть» отключено. Включите его в разделе «Настройки › AirCard-iOS › Локальная сеть».";
+"Pairing produced an empty file. Approve the pairing request, then try again." = "Сопряжение создало пустой файл. Подтвердите запрос на сопряжение и повторите попытку.";
+"Cancelled" = "Отменено";
+"Starting local host…" = "Запуск локального хоста…";
+"Broadcasting… open Settings to pair" = "Трансляция… откройте «Настройки» для сопряжения";
+"Failed: empty pairing file" = "Ошибка: пустой файл сопряжения";
+"Paired: %@ (%lldB)" = "Сопряжено: %@ (%lldB)";
+"Failed: %@" = "Ошибка: %@";
+"Advertising — open Settings › Privacy & Security › Developer Mode" = "Трансляция — откройте «Настройки › Конфиденциальность и безопасность › Режим разработчика»";
+"Enter PIN %@ in Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS" = "Введите PIN %@ в разделе «Настройки › Конфиденциальность и безопасность › Режим разработчика › Сопряжение с AirCard-iOS»";
+
+/* ---------- Состояния файла сопряжения ---------- */
+"Pairing file loaded ✅ (%@)" = "Файл сопряжения загружен ✅ (%@)";
+"Failed to save pairing file: %@" = "Не удалось сохранить файл сопряжения: %@";
+"Paired successfully! ✅" = "Сопряжение выполнено успешно! ✅";
+"Cancelled." = "Отменено.";
+"Pairing failed: %@" = "Сопряжение не удалось: %@";
+"Pairing file deleted" = "Файл сопряжения удалён";
+
+/* ---------- Сканирование карт ---------- */
+"Pairing file is required before scanning. Pair this iPhone or select a .plist first." = "Для сканирования нужен файл сопряжения. Сначала сопрягите этот iPhone или выберите файл .plist.";
+"Open Apple Pay (double-click Side button) and tap your card…" = "Откройте Apple Pay (дважды нажмите боковую кнопку) и приложите карту…";
+"Scanner stopped: %@" = "Сканер остановлен: %@";
+"Card scanner error: %@" = "Ошибка сканера карт: %@";
+"Scanning stopped. Total cards: %lld." = "Сканирование остановлено. Всего карт: %lld.";
+"Found card: %@" = "Найдена карта: %@";
+
+/* ---------- Запись карт ---------- */
+"Skins successfully applied to %lld card(s)!\n\nPlease force-close the Wallet app on your iPhone (or reboot) to see your new designs." = "Скины успешно применены к %lld карт(ам)!\n\nПринудительно закройте приложение «Wallet» на iPhone (или перезагрузите устройство), чтобы увидеть новое оформление.";
+
+/* ---------- Темы код-пароля: ошибки и успех ---------- */
+"Failed to read .passthm — invalid or unsupported format." = "Не удалось прочитать .passthm — неверный или неподдерживаемый формат.";
+"No key images loaded." = "Изображения клавиш не загружены.";
+"Passcode theme successfully applied!\n\nLock your iPhone (or restart) to see your new passcode keypad." = "Тема код-пароля успешно применена!\n\nЗаблокируйте iPhone (или перезагрузите его), чтобы увидеть новую клавиатуру код-пароля.";
+"Please configure at least one key before exporting." = "Перед экспортом настройте хотя бы одну клавишу.";
+"Failed to export theme: %@" = "Не удалось экспортировать тему: %@";
+
+/* ---------- Обои ---------- */
+"Failed to import %@: %@" = "Не удалось импортировать %@: %@";
+"No pairing file active. Pair your device first in the Pairing tab." = "Активный файл сопряжения отсутствует. Сначала сопрягите устройство на вкладке «Сопряжение».";
+"Auto-detect failed: %@\nEnsure LocalDevVPN is connected and device is unlocked." = "Автоопределение не удалось: %@\nУбедитесь, что LocalDevVPN подключён, а устройство разблокировано.";
+"No wallpapers selected to flash." = "Обои для записи не выбраны.";
+"No pairing file active. Please pair your device first." = "Активный файл сопряжения отсутствует. Сначала сопрягите устройство.";
+"PosterBoard container could not be found automatically. Ensure LocalDevVPN is connected and iPhone is unlocked." = "Не удалось автоматически найти контейнер PosterBoard. Убедитесь, что LocalDevVPN подключён, а iPhone разблокирован.";
+
+/* ---------- Ошибки движка обоев ---------- */
+"Failed to store wallpaper file at %@" = "Не удалось сохранить файл обоев по пути %@";
+"Failed to extract .tendies zip archive (code %d)" = "Не удалось распаковать zip-архив .tendies (код %d)";
+"Failed to find PosterBoard container" = "Не удалось найти контейнер PosterBoard";
+"PosterBoard Container path is required." = "Требуется путь к контейнеру PosterBoard.";
+"Failed to write directory: %@" = "Не удалось записать каталог: %@";
+
+/* ---------- Интерфейс обоев ---------- */
+"Choose .tendies from Files…" = "Выбрать .tendies в «Файлах»…";
+"Import More Wallpapers…" = "Импортировать ещё обои…";
+"PosterBoard container will be auto-detected automatically on flash." = "Контейнер PosterBoard будет определён автоматически при записи.";
+"Target: PosterBoard container detected ✅" = "Цель: контейнер PosterBoard обнаружен ✅";
+"Force PosterBoard Cache Refresh" = "Принудительно обновить кэш PosterBoard";
+"Resets file protections so iOS re-indexes wallpapers immediately" = "Сбрасывает защиту файлов, чтобы iOS сразу переиндексировала обои";
+"%lld Wallpapers Imported" = "Импортировано обоев: %lld";
+"Deselect All" = "Снять выделение";
+"Select All" = "Выбрать всё";
+"Wallpapers Gallery" = "Галерея обоев";
+"No .tendies wallpapers loaded yet" = "Обои .tendies ещё не загружены";
+"Tap 'Choose .tendies from Files' or copy wallpapers into On My iPhone › AirCard-iOS." = "Нажмите «Выбрать .tendies в Файлах» или скопируйте обои в раздел «На моём iPhone › AirCard-iOS».";
+"Flashing Wallpapers…" = "Запись обоев…";
+"Flash %lld Wallpaper(s)" = "Записать обои (%lld)";
+"Respring (NeoSpring)" = "Перезапуск SpringBoard (NeoSpring)";
+"Flashing will automatically trigger NeoSpring to respring the device and apply your new wallpapers." = "Запись автоматически запустит NeoSpring для перезапуска SpringBoard и применения новых обоев.";
+"Wallpapers" = "Обои";
+"%lld item(s)" = "Элементов: %lld";
+"Information" = "Информация";
+"Name" = "Имя";
+"File Name" = "Имя файла";
+"Type" = "Тип";
+"Descriptors" = "Дескрипторы";
+"Target Extension" = "Целевое расширение";
+"Format" = "Формат";
+"App Container" = "Контейнер приложения";
+"Descriptor Archive" = "Архив дескрипторов";
+"Warning" = "Предупреждение";
+"Contains SQLite database" = "Содержит базу данных SQLite";
+"Done" = "Готово";
+
+/* ---------- Благодарности ---------- */
+"Apple Wallet Skins & Passcode Themes for iOS 18+" = "Скины Apple Wallet и темы код-пароля для iOS 18+";
+"Lead & Core Developer" = "Ведущий и основной разработчик";
+"Chief" = "Chief";
+"GitHub" = "GitHub";
+"Twitter / X" = "Twitter / X";
+"Base IPA Developer" = "Разработчик базового IPA";
+"Base" = "Base";
+"Core Exploit" = "Основной эксплойт";
+"airlift (AirTraffic sync sandbox escape)" = "airlift (выход из песочницы AirTraffic sync)";
+"Passcode Themes" = "Темы код-пароля";
+".passthm standard (Cowabunga / Nugget)" = "Стандарт .passthm (Cowabunga / Nugget)";
+"NeoSpring & PosterBoard" = "NeoSpring и PosterBoard";
+"SpringBoard reload & .tendies wallpapers (@neonmodder123, @skadz108, @rooootdev)" = "Перезагрузка SpringBoard и обои .tendies (@neonmodder123, @skadz108, @rooootdev)";
+"Credits" = "Благодарности";
+"Copied" = "Скопировано";
+"Copy" = "Копировать";
+
+/* ---------- Вкладки и общие диалоги ---------- */
+"Pairing" = "Сопряжение";
+"Wallet Cards" = "Карты Wallet";
+"Passcode" = "Код-пароль";
+"Notice" = "Уведомление";
+"OK" = "ОК";
+"Success! 🎉" = "Успех! 🎉";
+"Cancel" = "Отмена";
+"Delete" = "Удалить";
+
+/* ---------- Вкладка сопряжения ---------- */
+"Apply custom wallet card skins and passcode themes on-device using the AirTraffic sandbox escape." = "Применяйте собственные скины карт Wallet и темы код-пароля прямо на устройстве с помощью выхода из песочницы AirTraffic.";
+"Network" = "Сеть";
+"Active Pairing" = "Активное сопряжение";
+"Ready to exploit ✅" = "Готово к эксплойту ✅";
+"Not Paired" = "Не сопряжено";
+"Tap 'Pair This iPhone' below to pair." = "Нажмите «Сопряжить этот iPhone» ниже, чтобы начать сопряжение.";
+"Delete pairing session?" = "Удалить сеанс сопряжения?";
+"The active pairing credentials will be removed." = "Действующие учётные данные сопряжения будут удалены.";
+"Pair on This iPhone" = "Сопряжить на этом iPhone";
+"Starting local pairing host…" = "Запуск локального хоста сопряжения…";
+"ENTER THIS PIN ON THIS IPHONE:" = "ВВЕДИТЕ ЭТОТ PIN НА ЭТОМ IPHONE:";
+"Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS" = "Настройки › Конфиденциальность и безопасность › Режим разработчика › Сопряжение с AirCard-iOS";
+"Open Settings App Now" = "Открыть «Настройки» сейчас";
+"Cancel Pairing" = "Отменить сопряжение";
+"Re-Pair This iPhone" = "Пересопряжить этот iPhone";
+"Pair This iPhone" = "Сопряжить этот iPhone";
+
+/* ---------- Карточка состояния loopback VPN ---------- */
+"Loopback VPN Active" = "Loopback VPN активен";
+"Loopback VPN Not Detected" = "Loopback VPN не обнаружен";
+"RSD tunnel ready — exploit will connect." = "Туннель RSD готов — эксплойт подключится.";
+"Connect LocalDevVPN before running flashes." = "Подключите LocalDevVPN перед записью.";
+"Setup LocalDevVPN:" = "Настройка LocalDevVPN:";
+"1. Open LocalDevVPN app and tap Connect." = "1. Откройте приложение LocalDevVPN и нажмите «Подключить».";
+"2. Return to AirCard-iOS — status indicator turns green." = "2. Вернитесь в AirCard-iOS — индикатор состояния станет зелёным.";
+"Launch LocalDevVPN" = "Запустить LocalDevVPN";
+"Device IP:" = "IP устройства:";
+
+/* ---------- Вкладка карт Wallet ---------- */
+"Assign Card Skin" = "Назначить скин карты";
+"Tap to choose photo" = "Нажмите, чтобы выбрать фото";
+"Card #%lld" = "Карта #%lld";
+"Wallet Cards (%lld)" = "Карты Wallet (%lld)";
+"Stop Scan" = "Остановить сканирование";
+"Scan Cards" = "Сканировать карты";
+"Add Card Manually" = "Добавить карту вручную";
+"Set Skin for All Cards..." = "Задать скин для всех карт…";
+"Clear All Cards" = "Очистить все карты";
+"Choose Image Source" = "Выбрать источник изображения";
+"Photo Library" = "Медиатека";
+"Choose from Files…" = "Выбрать в «Файлах»…";
+"Live Scanner Active" = "Сканер работает в реальном времени";
+"Scanner Status" = "Состояние сканера";
+"Stop" = "Стоп";
+"Flashing…" = "Запись…";
+"Retry" = "Повторить";
+"Flash" = "Записать";
+"No Cards Detected Yet" = "Карты пока не обнаружены";
+"Tap **Scan Cards** in the toolbar above." = "Нажмите **Сканировать карты** на панели инструментов выше.";
+"On this iPhone, **double-click the Side button** (Apple Pay), authenticate with **Face ID**, and **tap your card**." = "На этом iPhone **дважды нажмите боковую кнопку** (Apple Pay), подтвердите с помощью **Face ID** и **приложите карту**.";
+"Your card will appear here automatically!" = "Ваша карта появится здесь автоматически!";
+"Add Manually" = "Добавить вручную";
+"Card Hash" = "Хеш карты";
+"Paste card hash (e.g. M6nDwZrkYbFl…)" = "Вставьте хеш карты (например, M6nDwZrkYbFl…)";
+"You can add multiple hashes at once — separate them with spaces, commas, or newlines." = "Можно добавить несколько хешей сразу — разделяйте их пробелами, запятыми или переносами строк.";
+"Add Card" = "Добавить карту";
+"Add" = "Добавить";
+
+/* ---------- Вкладка тем код-пароля ---------- */
+"Mode" = "Режим";
+"Passcode Theme" = "Тема код-пароля";
+"Themes in App Folder (On My iPhone › AirCard-iOS)" = "Темы в папке приложения (На моём iPhone › AirCard-iOS)";
+"Load" = "Загрузить";
+"Browse Files" = "Обзор файлов";
+"Choose .passthm from Files…" = "Выбрать .passthm в «Файлах»…";
+"Change .passthm…" = "Заменить .passthm…";
+"Clear" = "Очистить";
+"Interactive Lock Screen Preview" = "Интерактивный предпросмотр экрана блокировки";
+"Theme Information" = "Информация о теме";
+"Files in theme" = "Файлов в теме";
+"%lld keys" = "Клавиш: %lld";
+"Edit in Theme Creator" = "Редактировать в редакторе тем";
+"Remove / Unload Theme" = "Удалить / выгрузить тему";
+"Flashing Theme…" = "Запись темы…";
+"Retry Flash Theme" = "Повторить запись темы";
+"Flash Theme to iPhone" = "Записать тему на iPhone";
+"Flash & Language Target" = "Запись и целевой язык";
+"System Caches" = "Системные кэши";
+"TelephonyUI-10 (iOS 18+)" = "TelephonyUI-10 (iOS 18+)";
+"TelephonyUI-9 (iOS 16–17)" = "TelephonyUI-9 (iOS 16–17)";
+"TelephonyUI-8 (iOS 14–15)" = "TelephonyUI-8 (iOS 14–15)";
+"Universal (All)" = "Универсально (все)";
+"System Language" = "Системный язык";
+"Font Weight / Style" = "Насыщенность / стиль шрифта";
+"Universal mode flashes ~600 files for all languages & Bold text. Selecting a specific language (e.g. Ukrainian) speeds up flashing dramatically." = "Универсальный режим записывает ~600 файлов для всех языков и жирного текста. Выбор конкретного языка (например, украинского) значительно ускоряет запись.";
+"Fast mode selected: only targets %@ with %@." = "Выбран быстрый режим: только для %@ с %@.";
+"Slice Mode" = "Режим разбиения";
+"Export .passthm..." = "Экспортировать .passthm…";
+"Clear All" = "Очистить всё";
+"Poster Image" = "Изображение постера";
+"Select Photo for Keypad…" = "Выбрать фото для клавиатуры…";
+"Change Photo…" = "Заменить фото…";
+"Choose Poster Image Source" = "Выбрать источник изображения постера";
+"Slicing Style" = "Стиль разбиения";
+"Seamless Poster" = "Бесшовный постер";
+"Circle Buttons" = "Круглые кнопки";
+"Artwork is clipped into individual circular button icons." = "Изображение вырезается в отдельные круглые значки кнопок.";
+"Seamless artwork spans across dialer keys without circular cuts (Adobe Dog style)." = "Изображение располагается поверх клавиш набора без круглой обрезки (стиль Adobe Dog).";
+"Zoom & Framing" = "Масштаб и кадрирование";
+"Reset Position" = "Сбросить положение";
+"Drag anywhere on the dialer preview to reposition" = "Перетащите в любом месте предпросмотра набора, чтобы изменить положение";
+"Tap a button row to assign a custom image." = "Нажмите на строку кнопок, чтобы назначить своё изображение.";
+"Key %@" = "Клавиша %@";
+"Choose Key %@ Image Source" = "Выбрать источник изображения для клавиши %@";
+"Drag preview to reposition" = "Перетащите предпросмотр, чтобы изменить положение";
+"%.1fx" = "%.1fx";
+
+/* ---------- Типы обоев ---------- */
+"Collections" = "Коллекции";
+"Suggested Photos" = "Рекомендуемые фото";
+"Mercury" = "Mercury";

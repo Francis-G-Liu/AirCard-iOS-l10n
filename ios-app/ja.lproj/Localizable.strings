@@ -1,0 +1,265 @@
+/* ==========================================================================
+   AirCard-iOS — 日本語
+   説明：英語が基準言語（source）です。キーは英語原文であり、未翻訳のキーは
+   自動的に英語にフォールバックします。
+   プレースホルダはそのまま保持してください：%@（文字列）  %lld（整数）  %d（整数）  %.1fx（浮動小数）
+   ブランド名 AirCard-iOS / LocalDevVPN / NeoSpring / PosterBoard / AirTraffic /
+   TelephonyUI / Cowabunga / Nugget などは翻訳しません。
+   ========================================================================== */
+
+/* ---------- 列挙とモード ---------- */
+"Apply .passthm" = ".passthm を適用";
+"Create Theme" = "テーマを作成";
+"Poster Slice" = "ポスタースライス";
+"Individual Keys" = "キーごとに個別";
+
+/* ---------- キーボードの対象言語 ---------- */
+"All Languages (Universal)" = "すべての言語（ユニバーサル）";
+"Ukrainian (uk)" = "ウクライナ語 (uk)";
+"Russian (ru)" = "ロシア語 (ru)";
+"English (en)" = "英語 (en)";
+"Other / Fallback" = "その他 / フォールバック";
+"Spanish (es)" = "スペイン語 (es)";
+"German (de)" = "ドイツ語 (de)";
+"French (fr)" = "フランス語 (fr)";
+"Polish (pl)" = "ポーランド語 (pl)";
+"Italian (it)" = "イタリア語 (it)";
+"Portuguese (pt)" = "ポルトガル語 (pt)";
+"Turkish (tr)" = "トルコ語 (tr)";
+"Japanese (ja)" = "日本語 (ja)";
+"Korean (ko)" = "韓国語 (ko)";
+"Chinese (zh)" = "中国語 (zh)";
+"Arabic (ar)" = "アラビア語 (ar)";
+"Hebrew (he)" = "ヘブライ語 (he)";
+
+/* ---------- フォントウェイト / スタイル ---------- */
+"Universal (Regular + Bold)" = "ユニバーサル（レギュラー + ボールド）";
+"Bold Text Only (Fast)" = "太字テキストのみ（高速）";
+"Regular Font Only (Fast)" = "レギュラーフォントのみ（高速）";
+
+/* ---------- ペアリング：状態とエラー ---------- */
+"Pairing is already in progress." = "ペアリングはすでに進行中です。";
+"Local Network permission is off. Enable it in Settings › AirCard-iOS › Local Network." = "「ローカルネットワーク」権限がオフです。「設定 › AirCard-iOS › ローカルネットワーク」で有効にしてください。";
+"Pairing produced an empty file. Approve the pairing request, then try again." = "ペアリングで空のファイルが生成されました。ペアリング要求を承認してから、もう一度お試しください。";
+"Cancelled" = "キャンセル済み";
+"Starting local host…" = "ローカルホストを起動中…";
+"Broadcasting… open Settings to pair" = "ブロードキャスト中…「設定」を開いてペアリングしてください";
+"Failed: empty pairing file" = "失敗：ペアリングファイルが空です";
+"Paired: %@ (%lldB)" = "ペアリング完了：%@（%lldB）";
+"Failed: %@" = "失敗：%@";
+"Advertising — open Settings › Privacy & Security › Developer Mode" = "アドバタイズ中 — 「設定 › プライバシーとセキュリティ › デベロッパモード」を開いてください";
+"Enter PIN %@ in Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS" = "「設定 › プライバシーとセキュリティ › デベロッパモード › AirCard-iOS とペアリング」で PIN %@ を入力してください";
+
+/* ---------- ペアリングファイルの状態 ---------- */
+"Pairing file loaded ✅ (%@)" = "ペアリングファイルを読み込みました ✅（%@）";
+"Failed to save pairing file: %@" = "ペアリングファイルの保存に失敗：%@";
+"Paired successfully! ✅" = "ペアリングに成功しました！✅";
+"Cancelled." = "キャンセルしました。";
+"Pairing failed: %@" = "ペアリングに失敗：%@";
+"Pairing file deleted" = "ペアリングファイルを削除しました";
+
+/* ---------- カードスキャン ---------- */
+"Pairing file is required before scanning. Pair this iPhone or select a .plist first." = "スキャンの前にペアリングファイルが必要です。この iPhone をペアリングするか、先に .plist を選択してください。";
+"Open Apple Pay (double-click Side button) and tap your card…" = "Apple Pay を開き（サイドボタンをダブルクリック）、カードをタップしてください…";
+"Scanner stopped: %@" = "スキャナーを停止しました：%@";
+"Card scanner error: %@" = "カードスキャナーのエラー：%@";
+"Scanning stopped. Total cards: %lld." = "スキャンを停止しました。カードの合計：%lld。";
+"Found card: %@" = "カードを検出：%@";
+
+/* ---------- カードの書き込み ---------- */
+"Skins successfully applied to %lld card(s)!\n\nPlease force-close the Wallet app on your iPhone (or reboot) to see your new designs." = "%lld 枚のカードにスキンを適用しました！\n\niPhone の「ウォレット」App を強制終了する（または再起動する）と、新しいデザインを確認できます。";
+
+/* ---------- パスコードテーマ：エラーと成功 ---------- */
+"Failed to read .passthm — invalid or unsupported format." = ".passthm の読み込みに失敗 — 形式が無効か、サポートされていません。";
+"No key images loaded." = "キー画像が読み込まれていません。";
+"Passcode theme successfully applied!\n\nLock your iPhone (or restart) to see your new passcode keypad." = "パスコードテーマを適用しました！\n\niPhone をロックする（または再起動する）と、新しいパスコードキーパッドを確認できます。";
+"Please configure at least one key before exporting." = "書き出す前に、少なくとも 1 つのキーを設定してください。";
+"Failed to export theme: %@" = "テーマの書き出しに失敗：%@";
+
+/* ---------- 壁紙 ---------- */
+"Failed to import %@: %@" = "%@ の読み込みに失敗：%@";
+"No pairing file active. Pair your device first in the Pairing tab." = "有効なペアリングファイルがありません。先に「ペアリング」タブでデバイスをペアリングしてください。";
+"Auto-detect failed: %@\nEnsure LocalDevVPN is connected and device is unlocked." = "自動検出に失敗：%@\nLocalDevVPN が接続され、デバイスのロックが解除されていることを確認してください。";
+"No wallpapers selected to flash." = "書き込む壁紙が選択されていません。";
+"No pairing file active. Please pair your device first." = "有効なペアリングファイルがありません。先にデバイスをペアリングしてください。";
+"PosterBoard container could not be found automatically. Ensure LocalDevVPN is connected and iPhone is unlocked." = "PosterBoard コンテナを自動で見つけられませんでした。LocalDevVPN が接続され、iPhone のロックが解除されていることを確認してください。";
+
+/* ---------- 壁紙エンジンのエラー ---------- */
+"Failed to store wallpaper file at %@" = "壁紙ファイルの保存に失敗しました。パス：%@";
+"Failed to extract .tendies zip archive (code %d)" = ".tendies 圧縮アーカイブの展開に失敗（コード %d）";
+"Failed to find PosterBoard container" = "PosterBoard コンテナが見つかりません";
+"PosterBoard Container path is required." = "PosterBoard コンテナのパスが必要です。";
+"Failed to write directory: %@" = "ディレクトリの書き込みに失敗：%@";
+
+/* ---------- 壁紙の画面 ---------- */
+"Choose .tendies from Files…" = "「ファイル」から .tendies を選択…";
+"Import More Wallpapers…" = "壁紙をさらに読み込む…";
+"PosterBoard container will be auto-detected automatically on flash." = "書き込み時に PosterBoard コンテナが自動的に検出されます。";
+"Target: PosterBoard container detected ✅" = "対象：PosterBoard コンテナを検出しました ✅";
+"Force PosterBoard Cache Refresh" = "PosterBoard キャッシュを強制更新";
+"Resets file protections so iOS re-indexes wallpapers immediately" = "ファイル保護属性をリセットし、iOS に壁紙を即座に再インデックスさせます";
+"%lld Wallpapers Imported" = "%lld 枚の壁紙を読み込みました";
+"Deselect All" = "すべて選択解除";
+"Select All" = "すべて選択";
+"Wallpapers Gallery" = "壁紙ギャラリー";
+"No .tendies wallpapers loaded yet" = ".tendies 壁紙がまだ読み込まれていません";
+"Tap 'Choose .tendies from Files' or copy wallpapers into On My iPhone › AirCard-iOS." = "「ファイルから .tendies を選択」をタップするか、壁紙を「この iPhone 内 › AirCard-iOS」にコピーしてください。";
+"Flashing Wallpapers…" = "壁紙を書き込み中…";
+"Flash %lld Wallpaper(s)" = "%lld 枚の壁紙を書き込む";
+"Respring (NeoSpring)" = "リスプリング（NeoSpring）";
+"Flashing will automatically trigger NeoSpring to respring the device and apply your new wallpapers." = "書き込み後、NeoSpring が自動的に作動してデバイスをリスプリングし、新しい壁紙を適用します。";
+"Wallpapers" = "壁紙";
+"%lld item(s)" = "%lld 項目";
+"Information" = "情報";
+"Name" = "名前";
+"File Name" = "ファイル名";
+"Type" = "種類";
+"Descriptors" = "記述子";
+"Target Extension" = "対象の拡張子";
+"Format" = "フォーマット";
+"App Container" = "App コンテナ";
+"Descriptor Archive" = "記述子アーカイブ";
+"Warning" = "警告";
+"Contains SQLite database" = "SQLite データベースを含みます";
+"Done" = "完了";
+
+/* ---------- クレジット ---------- */
+"Apple Wallet Skins & Passcode Themes for iOS 18+" = "iOS 18+ 向けの Apple ウォレットスキンとパスコードテーマ";
+"Lead & Core Developer" = "リード & コアデベロッパー";
+"Chief" = "Chief";
+"GitHub" = "GitHub";
+"Twitter / X" = "Twitter / X";
+"Base IPA Developer" = "ベース IPA デベロッパー";
+"Base" = "Base";
+"Core Exploit" = "コアエクスプロイト";
+"airlift (AirTraffic sync sandbox escape)" = "airlift（AirTraffic 同期サンドボックスエスケープ）";
+"Passcode Themes" = "パスコードテーマ";
+".passthm standard (Cowabunga / Nugget)" = ".passthm 標準（Cowabunga / Nugget）";
+"NeoSpring & PosterBoard" = "NeoSpring & PosterBoard";
+"SpringBoard reload & .tendies wallpapers (@neonmodder123, @skadz108, @rooootdev)" = "SpringBoard リロードと .tendies 壁紙（@neonmodder123、@skadz108、@rooootdev）";
+"Credits" = "クレジット";
+"Copied" = "コピーしました";
+"Copy" = "コピー";
+
+/* ---------- タブと共通ダイアログ ---------- */
+"Pairing" = "ペアリング";
+"Wallet Cards" = "ウォレットカード";
+"Passcode" = "パスコード";
+"Notice" = "お知らせ";
+"OK" = "OK";
+"Success! 🎉" = "成功しました！🎉";
+"Cancel" = "キャンセル";
+"Delete" = "削除";
+
+/* ---------- ペアリングタブ ---------- */
+"Apply custom wallet card skins and passcode themes on-device using the AirTraffic sandbox escape." = "AirTraffic サンドボックスエスケープを利用して、デバイス上でカスタムのウォレットカードスキンとパスコードテーマを適用します。";
+"Network" = "ネットワーク";
+"Active Pairing" = "有効なペアリング";
+"Ready to exploit ✅" = "エクスプロイト可能 ✅";
+"Not Paired" = "未ペアリング";
+"Tap 'Pair This iPhone' below to pair." = "下の「この iPhone をペアリング」をタップしてペアリングします。";
+"Delete pairing session?" = "ペアリングセッションを削除しますか？";
+"The active pairing credentials will be removed." = "現在有効なペアリング認証情報が削除されます。";
+"Pair on This iPhone" = "この iPhone でペアリング";
+"Starting local pairing host…" = "ローカルペアリングホストを起動中…";
+"ENTER THIS PIN ON THIS IPHONE:" = "この iPhone に次の PIN を入力してください：";
+"Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS" = "設定 › プライバシーとセキュリティ › デベロッパモード › AirCard-iOS とペアリング";
+"Open Settings App Now" = "今すぐ「設定」App を開く";
+"Cancel Pairing" = "ペアリングをキャンセル";
+"Re-Pair This iPhone" = "この iPhone を再ペアリング";
+"Pair This iPhone" = "この iPhone をペアリング";
+
+/* ---------- ループバック VPN ステータスカード ---------- */
+"Loopback VPN Active" = "ループバック VPN が有効";
+"Loopback VPN Not Detected" = "ループバック VPN が検出されません";
+"RSD tunnel ready — exploit will connect." = "RSD トンネルの準備完了 — エクスプロイトが接続します。";
+"Connect LocalDevVPN before running flashes." = "書き込みを実行する前に LocalDevVPN に接続してください。";
+"Setup LocalDevVPN:" = "LocalDevVPN の設定：";
+"1. Open LocalDevVPN app and tap Connect." = "1. LocalDevVPN App を開き、「接続」をタップします。";
+"2. Return to AirCard-iOS — status indicator turns green." = "2. AirCard-iOS に戻ります — ステータス表示が緑になります。";
+"Launch LocalDevVPN" = "LocalDevVPN を起動";
+"Device IP:" = "デバイス IP：";
+
+/* ---------- ウォレットカードタブ ---------- */
+"Assign Card Skin" = "カードスキンを割り当て";
+"Tap to choose photo" = "タップして写真を選択";
+"Card #%lld" = "カード #%lld";
+"Wallet Cards (%lld)" = "ウォレットカード（%lld）";
+"Stop Scan" = "スキャンを停止";
+"Scan Cards" = "カードをスキャン";
+"Add Card Manually" = "カードを手動で追加";
+"Set Skin for All Cards..." = "すべてのカードにスキンを設定…";
+"Clear All Cards" = "すべてのカードを消去";
+"Choose Image Source" = "画像のソースを選択";
+"Photo Library" = "写真ライブラリ";
+"Choose from Files…" = "「ファイル」から選択…";
+"Live Scanner Active" = "ライブスキャナーが動作中";
+"Scanner Status" = "スキャナーの状態";
+"Stop" = "停止";
+"Flashing…" = "書き込み中…";
+"Retry" = "再試行";
+"Flash" = "書き込む";
+"No Cards Detected Yet" = "カードがまだ検出されていません";
+"Tap **Scan Cards** in the toolbar above." = "上のツールバーの **カードをスキャン** をタップします。";
+"On this iPhone, **double-click the Side button** (Apple Pay), authenticate with **Face ID**, and **tap your card**." = "この iPhone で **サイドボタンをダブルクリック** し（Apple Pay）、**Face ID** で認証して、**カードをタップ** します。";
+"Your card will appear here automatically!" = "カードはここに自動的に表示されます！";
+"Add Manually" = "手動で追加";
+"Card Hash" = "カードハッシュ";
+"Paste card hash (e.g. M6nDwZrkYbFl…)" = "カードハッシュを貼り付け（例：M6nDwZrkYbFl…）";
+"You can add multiple hashes at once — separate them with spaces, commas, or newlines." = "複数のハッシュを一度に追加できます — スペース、カンマ、または改行で区切ってください。";
+"Add Card" = "カードを追加";
+"Add" = "追加";
+
+/* ---------- パスコードテーマタブ ---------- */
+"Mode" = "モード";
+"Passcode Theme" = "パスコードテーマ";
+"Themes in App Folder (On My iPhone › AirCard-iOS)" = "App フォルダ内のテーマ（この iPhone 内 › AirCard-iOS）";
+"Load" = "読み込む";
+"Browse Files" = "ファイルを参照";
+"Choose .passthm from Files…" = "「ファイル」から .passthm を選択…";
+"Change .passthm…" = ".passthm を変更…";
+"Clear" = "消去";
+"Interactive Lock Screen Preview" = "インタラクティブなロック画面プレビュー";
+"Theme Information" = "テーマ情報";
+"Files in theme" = "テーマ内のファイル数";
+"%lld keys" = "%lld 個のキー";
+"Edit in Theme Creator" = "テーマクリエイターで編集";
+"Remove / Unload Theme" = "テーマを削除 / アンロード";
+"Flashing Theme…" = "テーマを書き込み中…";
+"Retry Flash Theme" = "テーマの書き込みを再試行";
+"Flash Theme to iPhone" = "テーマを iPhone に書き込む";
+"Flash & Language Target" = "書き込みと対象言語";
+"System Caches" = "システムキャッシュ";
+"TelephonyUI-10 (iOS 18+)" = "TelephonyUI-10（iOS 18+）";
+"TelephonyUI-9 (iOS 16–17)" = "TelephonyUI-9（iOS 16–17）";
+"TelephonyUI-8 (iOS 14–15)" = "TelephonyUI-8（iOS 14–15）";
+"Universal (All)" = "ユニバーサル（すべて）";
+"System Language" = "システム言語";
+"Font Weight / Style" = "フォントウェイト / スタイル";
+"Universal mode flashes ~600 files for all languages & Bold text. Selecting a specific language (e.g. Ukrainian) speeds up flashing dramatically." = "ユニバーサルモードでは、すべての言語と太字テキスト用に約 600 個のファイルを書き込みます。特定の言語（例：ウクライナ語）を選択すると、書き込みが大幅に高速化します。";
+"Fast mode selected: only targets %@ with %@." = "高速モードを選択：%@ と %@ のみを対象にします。";
+"Slice Mode" = "スライスモード";
+"Export .passthm..." = ".passthm を書き出す…";
+"Clear All" = "すべて消去";
+"Poster Image" = "ポスター画像";
+"Select Photo for Keypad…" = "キーパッド用の写真を選択…";
+"Change Photo…" = "写真を変更…";
+"Choose Poster Image Source" = "ポスター画像のソースを選択";
+"Slicing Style" = "スライススタイル";
+"Seamless Poster" = "シームレスポスター";
+"Circle Buttons" = "円形ボタン";
+"Artwork is clipped into individual circular button icons." = "アートワークは 1 つ 1 つの円形ボタンアイコンに切り抜かれます。";
+"Seamless artwork spans across dialer keys without circular cuts (Adobe Dog style)." = "アートワークは円形に切り抜かず、ダイヤルキー全体に広がります（Adobe Dog スタイル）。";
+"Zoom & Framing" = "ズームとフレーミング";
+"Reset Position" = "位置をリセット";
+"Drag anywhere on the dialer preview to reposition" = "ダイヤラーのプレビュー上の任意の場所をドラッグして位置を調整";
+"Tap a button row to assign a custom image." = "ボタンの行をタップしてカスタム画像を割り当てます。";
+"Key %@" = "キー %@";
+"Choose Key %@ Image Source" = "キー %@ の画像ソースを選択";
+"Drag preview to reposition" = "プレビューをドラッグして位置を調整";
+"%.1fx" = "%.1fx";
+
+/* ---------- 壁紙の種類 ---------- */
+"Collections" = "コレクション";
+"Suggested Photos" = "おすすめの写真";
+"Mercury" = "Mercury";

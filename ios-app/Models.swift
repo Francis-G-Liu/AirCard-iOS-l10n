@@ -69,12 +69,14 @@ enum CreatorMode: String, CaseIterable, Identifiable {
     case applyTheme = "Apply .passthm"
     case themeCreator = "Create Theme"
     var id: String { rawValue }
+    var displayName: String { NSLocalizedString(rawValue, comment: "Passcode theme mode") }
 }
 
 enum SliceMode: String, CaseIterable, Identifiable {
     case posterSlice = "Poster Slice"
     case individualKeys = "Individual Keys"
     var id: String { rawValue }
+    var displayName: String { NSLocalizedString(rawValue, comment: "Keypad artwork slicing mode") }
 }
 
 enum PasscodeLanguageTarget: String, CaseIterable, Identifiable {
@@ -97,6 +99,9 @@ enum PasscodeLanguageTarget: String, CaseIterable, Identifiable {
     case he = "Hebrew (he)"
 
     var id: String { rawValue }
+
+    /// Localized label shown in pickers. `rawValue` stays the stable identity/key.
+    var displayName: String { NSLocalizedString(rawValue, comment: "Passcode keypad target language") }
 
     var code: String {
         switch self {
@@ -127,6 +132,9 @@ enum PasscodeBoldTarget: String, CaseIterable, Identifiable {
     case regularOnly = "Regular Font Only (Fast)"
 
     var id: String { rawValue }
+
+    /// Localized label shown in pickers. `rawValue` stays the stable identity/key.
+    var displayName: String { NSLocalizedString(rawValue, comment: "Passcode keypad font weight") }
 
     var code: String {
         switch self {

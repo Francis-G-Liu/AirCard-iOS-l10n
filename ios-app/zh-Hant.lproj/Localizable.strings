@@ -1,0 +1,264 @@
+/* ==========================================================================
+   AirCard-iOS — 繁體中文
+   說明：英文為基準語言（source）。鍵即英文原文，未翻譯的鍵會自動回退為英文。
+   佔位符必須原樣保留：%@（字串）  %lld（整數）  %d（整數）  %.1fx（浮點）
+   品牌名 AirCard-iOS / LocalDevVPN / NeoSpring / PosterBoard / AirTraffic /
+   TelephonyUI / Cowabunga / Nugget 等不翻譯。
+   ========================================================================== */
+
+/* ---------- 枚舉與模式 ---------- */
+"Apply .passthm" = "套用 .passthm";
+"Create Theme" = "建立主題";
+"Poster Slice" = "整圖切片";
+"Individual Keys" = "逐鍵獨立";
+
+/* ---------- 鍵盤目標語言 ---------- */
+"All Languages (Universal)" = "所有語言（通用）";
+"Ukrainian (uk)" = "烏克蘭語 (uk)";
+"Russian (ru)" = "俄語 (ru)";
+"English (en)" = "英語 (en)";
+"Other / Fallback" = "其他 / 回退";
+"Spanish (es)" = "西班牙語 (es)";
+"German (de)" = "德語 (de)";
+"French (fr)" = "法語 (fr)";
+"Polish (pl)" = "波蘭語 (pl)";
+"Italian (it)" = "義大利語 (it)";
+"Portuguese (pt)" = "葡萄牙語 (pt)";
+"Turkish (tr)" = "土耳其語 (tr)";
+"Japanese (ja)" = "日語 (ja)";
+"Korean (ko)" = "韓語 (ko)";
+"Chinese (zh)" = "中文 (zh)";
+"Arabic (ar)" = "阿拉伯語 (ar)";
+"Hebrew (he)" = "希伯來語 (he)";
+
+/* ---------- 字重 / 樣式 ---------- */
+"Universal (Regular + Bold)" = "通用（常規 + 粗體）";
+"Bold Text Only (Fast)" = "僅粗體文字（快速）";
+"Regular Font Only (Fast)" = "僅常規字型（快速）";
+
+/* ---------- 配對：狀態與錯誤 ---------- */
+"Pairing is already in progress." = "配對正在進行中。";
+"Local Network permission is off. Enable it in Settings › AirCard-iOS › Local Network." = "「本地網路」權限已關閉。請在「設定 › AirCard-iOS › 本地網路」中開啟。";
+"Pairing produced an empty file. Approve the pairing request, then try again." = "配對產生了空檔案。請先批准配對請求，然後重試。";
+"Cancelled" = "已取消";
+"Starting local host…" = "正在啟動本地主機…";
+"Broadcasting… open Settings to pair" = "正在廣播…請開啟「設定」進行配對";
+"Failed: empty pairing file" = "失敗：配對檔案為空";
+"Paired: %@ (%lldB)" = "已配對：%@（%lldB）";
+"Failed: %@" = "失敗：%@";
+"Advertising — open Settings › Privacy & Security › Developer Mode" = "正在廣播 — 請開啟「設定 › 隱私權與安全性 › 開發人員模式」";
+"Enter PIN %@ in Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS" = "請在「設定 › 隱私權與安全性 › 開發人員模式 › 與 AirCard-iOS 配對」中輸入 PIN %@";
+
+/* ---------- 配對檔案狀態 ---------- */
+"Pairing file loaded ✅ (%@)" = "配對檔案已載入 ✅（%@）";
+"Failed to save pairing file: %@" = "儲存配對檔案失敗：%@";
+"Paired successfully! ✅" = "配對成功！✅";
+"Cancelled." = "已取消。";
+"Pairing failed: %@" = "配對失敗：%@";
+"Pairing file deleted" = "配對檔案已刪除";
+
+/* ---------- 卡片掃描 ---------- */
+"Pairing file is required before scanning. Pair this iPhone or select a .plist first." = "掃描前需要配對檔案。請先配對這台 iPhone，或選擇一個 .plist 檔案。";
+"Open Apple Pay (double-click Side button) and tap your card…" = "開啟 Apple Pay（連按兩下側邊按鈕）並輕觸你的卡片…";
+"Scanner stopped: %@" = "掃描器已停止：%@";
+"Card scanner error: %@" = "卡片掃描錯誤：%@";
+"Scanning stopped. Total cards: %lld." = "掃描已停止。卡片總數：%lld。";
+"Found card: %@" = "發現卡片：%@";
+
+/* ---------- 卡片刷入 ---------- */
+"Skins successfully applied to %lld card(s)!\n\nPlease force-close the Wallet app on your iPhone (or reboot) to see your new designs." = "已成功為 %lld 張卡片套用外觀！\n\n請在你的 iPhone 上強制關閉「錢包」App（或重新開機）以查看新設計。";
+
+/* ---------- 密碼主題：錯誤與成功 ---------- */
+"Failed to read .passthm — invalid or unsupported format." = "讀取 .passthm 失敗 — 格式無效或不受支援。";
+"No key images loaded." = "未載入任何按鍵圖片。";
+"Passcode theme successfully applied!\n\nLock your iPhone (or restart) to see your new passcode keypad." = "密碼鍵盤主題已成功套用！\n\n請鎖定你的 iPhone（或重新啟動）以查看新的密碼鍵盤。";
+"Please configure at least one key before exporting." = "匯出前請至少設定一個按鍵。";
+"Failed to export theme: %@" = "匯出主題失敗：%@";
+
+/* ---------- 桌布 ---------- */
+"Failed to import %@: %@" = "匯入 %@ 失敗：%@";
+"No pairing file active. Pair your device first in the Pairing tab." = "沒有可用的配對檔案。請先在「配對」標籤頁中配對裝置。";
+"Auto-detect failed: %@\nEnsure LocalDevVPN is connected and device is unlocked." = "自動偵測失敗：%@\n請確認 LocalDevVPN 已連線且裝置已解鎖。";
+"No wallpapers selected to flash." = "未選擇要刷入的桌布。";
+"No pairing file active. Please pair your device first." = "沒有可用的配對檔案。請先配對裝置。";
+"PosterBoard container could not be found automatically. Ensure LocalDevVPN is connected and iPhone is unlocked." = "無法自動找到 PosterBoard 容器。請確認 LocalDevVPN 已連線且 iPhone 已解鎖。";
+
+/* ---------- 桌布引擎錯誤 ---------- */
+"Failed to store wallpaper file at %@" = "儲存桌布檔案失敗，路徑：%@";
+"Failed to extract .tendies zip archive (code %d)" = "解壓縮 .tendies 壓縮檔失敗（錯誤碼 %d）";
+"Failed to find PosterBoard container" = "找不到 PosterBoard 容器";
+"PosterBoard Container path is required." = "必須提供 PosterBoard 容器路徑。";
+"Failed to write directory: %@" = "寫入目錄失敗：%@";
+
+/* ---------- 桌布介面 ---------- */
+"Choose .tendies from Files…" = "從「檔案」中選擇 .tendies…";
+"Import More Wallpapers…" = "繼續匯入桌布…";
+"PosterBoard container will be auto-detected automatically on flash." = "刷入時會自動偵測 PosterBoard 容器。";
+"Target: PosterBoard container detected ✅" = "目標：已偵測到 PosterBoard 容器 ✅";
+"Force PosterBoard Cache Refresh" = "強制重新整理 PosterBoard 快取";
+"Resets file protections so iOS re-indexes wallpapers immediately" = "重設檔案保護屬性，讓 iOS 立即重新索引桌布";
+"%lld Wallpapers Imported" = "已匯入 %lld 張桌布";
+"Deselect All" = "取消全選";
+"Select All" = "全選";
+"Wallpapers Gallery" = "桌布圖庫";
+"No .tendies wallpapers loaded yet" = "尚未載入任何 .tendies 桌布";
+"Tap 'Choose .tendies from Files' or copy wallpapers into On My iPhone › AirCard-iOS." = "請點擊「從『檔案』中選擇 .tendies」，或將桌布複製到「我的 iPhone › AirCard-iOS」。";
+"Flashing Wallpapers…" = "正在刷入桌布…";
+"Flash %lld Wallpaper(s)" = "刷入 %lld 張桌布";
+"Respring (NeoSpring)" = "重新載入桌面（NeoSpring）";
+"Flashing will automatically trigger NeoSpring to respring the device and apply your new wallpapers." = "刷入後會自動觸發 NeoSpring 重新載入裝置桌面並套用新桌布。";
+"Wallpapers" = "桌布";
+"%lld item(s)" = "%lld 項";
+"Information" = "資訊";
+"Name" = "名稱";
+"File Name" = "檔名";
+"Type" = "類型";
+"Descriptors" = "描述元";
+"Target Extension" = "目標副檔名";
+"Format" = "格式";
+"App Container" = "App 容器";
+"Descriptor Archive" = "描述元封存";
+"Warning" = "警告";
+"Contains SQLite database" = "包含 SQLite 資料庫";
+"Done" = "完成";
+
+/* ---------- 致謝 ---------- */
+"Apple Wallet Skins & Passcode Themes for iOS 18+" = "適用於 iOS 18+ 的 Apple 錢包外觀與密碼鍵盤主題";
+"Lead & Core Developer" = "負責人 & 核心開發者";
+"Chief" = "Chief";
+"GitHub" = "GitHub";
+"Twitter / X" = "Twitter / X";
+"Base IPA Developer" = "基礎 IPA 開發者";
+"Base" = "Base";
+"Core Exploit" = "核心漏洞利用";
+"airlift (AirTraffic sync sandbox escape)" = "airlift（AirTraffic 同步沙盒逃逸）";
+"Passcode Themes" = "密碼鍵盤主題";
+".passthm standard (Cowabunga / Nugget)" = ".passthm 標準（Cowabunga / Nugget）";
+"NeoSpring & PosterBoard" = "NeoSpring & PosterBoard";
+"SpringBoard reload & .tendies wallpapers (@neonmodder123, @skadz108, @rooootdev)" = "SpringBoard 重新載入與 .tendies 桌布（@neonmodder123、@skadz108、@rooootdev）";
+"Credits" = "致謝";
+"Copied" = "已複製";
+"Copy" = "複製";
+
+/* ---------- 標籤頁與通用彈窗 ---------- */
+"Pairing" = "配對";
+"Wallet Cards" = "錢包卡片";
+"Passcode" = "密碼鍵盤";
+"Notice" = "提示";
+"OK" = "好";
+"Success! 🎉" = "成功！🎉";
+"Cancel" = "取消";
+"Delete" = "刪除";
+
+/* ---------- 配對標籤頁 ---------- */
+"Apply custom wallet card skins and passcode themes on-device using the AirTraffic sandbox escape." = "藉助 AirTraffic 沙盒逃逸，在裝置本機套用自訂錢包卡片外觀與密碼鍵盤主題。";
+"Network" = "網路";
+"Active Pairing" = "目前配對";
+"Ready to exploit ✅" = "可以執行漏洞利用 ✅";
+"Not Paired" = "未配對";
+"Tap 'Pair This iPhone' below to pair." = "點擊下方的「配對這台 iPhone」開始配對。";
+"Delete pairing session?" = "刪除配對工作階段？";
+"The active pairing credentials will be removed." = "目前生效的配對憑證將被移除。";
+"Pair on This iPhone" = "在這台 iPhone 上配對";
+"Starting local pairing host…" = "正在啟動本地配對主機…";
+"ENTER THIS PIN ON THIS IPHONE:" = "請在這台 iPhone 上輸入此 PIN 碼：";
+"Settings › Privacy & Security › Developer Mode › Pair with AirCard-iOS" = "設定 › 隱私權與安全性 › 開發人員模式 › 與 AirCard-iOS 配對";
+"Open Settings App Now" = "立即開啟「設定」App";
+"Cancel Pairing" = "取消配對";
+"Re-Pair This iPhone" = "重新配對這台 iPhone";
+"Pair This iPhone" = "配對這台 iPhone";
+
+/* ---------- 回送 VPN 狀態卡 ---------- */
+"Loopback VPN Active" = "回送 VPN 已啟用";
+"Loopback VPN Not Detected" = "未偵測到回送 VPN";
+"RSD tunnel ready — exploit will connect." = "RSD 通道已就緒 — 漏洞利用將自動連線。";
+"Connect LocalDevVPN before running flashes." = "請在執行刷入前連線 LocalDevVPN。";
+"Setup LocalDevVPN:" = "設定 LocalDevVPN：";
+"1. Open LocalDevVPN app and tap Connect." = "1. 開啟 LocalDevVPN App 並點擊「連線」。";
+"2. Return to AirCard-iOS — status indicator turns green." = "2. 返回 AirCard-iOS — 狀態指示變為綠色。";
+"Launch LocalDevVPN" = "啟動 LocalDevVPN";
+"Device IP:" = "裝置 IP：";
+
+/* ---------- 錢包卡片標籤頁 ---------- */
+"Assign Card Skin" = "指定卡片外觀";
+"Tap to choose photo" = "點擊選擇照片";
+"Card #%lld" = "卡片 #%lld";
+"Wallet Cards (%lld)" = "錢包卡片（%lld）";
+"Stop Scan" = "停止掃描";
+"Scan Cards" = "掃描卡片";
+"Add Card Manually" = "手動新增卡片";
+"Set Skin for All Cards..." = "為所有卡片設定外觀…";
+"Clear All Cards" = "清空所有卡片";
+"Choose Image Source" = "選擇圖片來源";
+"Photo Library" = "照片圖庫";
+"Choose from Files…" = "從「檔案」中選擇…";
+"Live Scanner Active" = "即時掃描器運作中";
+"Scanner Status" = "掃描器狀態";
+"Stop" = "停止";
+"Flashing…" = "正在刷入…";
+"Retry" = "重試";
+"Flash" = "刷入";
+"No Cards Detected Yet" = "尚未偵測到卡片";
+"Tap **Scan Cards** in the toolbar above." = "點擊上方工具列中的 **掃描卡片**。";
+"On this iPhone, **double-click the Side button** (Apple Pay), authenticate with **Face ID**, and **tap your card**." = "在這台 iPhone 上，**連按兩下側邊按鈕**（Apple Pay），用 **Face ID** 驗證，然後**輕觸你的卡片**。";
+"Your card will appear here automatically!" = "你的卡片會自動顯示在這裡！";
+"Add Manually" = "手動新增";
+"Card Hash" = "卡片雜湊";
+"Paste card hash (e.g. M6nDwZrkYbFl…)" = "貼上卡片雜湊（例如 M6nDwZrkYbFl…）";
+"You can add multiple hashes at once — separate them with spaces, commas, or newlines." = "可一次新增多個雜湊 — 用空格、逗號或換行分隔。";
+"Add Card" = "新增卡片";
+"Add" = "新增";
+
+/* ---------- 密碼鍵盤主題標籤頁 ---------- */
+"Mode" = "模式";
+"Passcode Theme" = "密碼鍵盤主題";
+"Themes in App Folder (On My iPhone › AirCard-iOS)" = "App 資料夾中的主題（我的 iPhone › AirCard-iOS）";
+"Load" = "載入";
+"Browse Files" = "瀏覽檔案";
+"Choose .passthm from Files…" = "從「檔案」中選擇 .passthm…";
+"Change .passthm…" = "更換 .passthm…";
+"Clear" = "清除";
+"Interactive Lock Screen Preview" = "互動式鎖定畫面預覽";
+"Theme Information" = "主題資訊";
+"Files in theme" = "主題內檔案數";
+"%lld keys" = "%lld 個按鍵";
+"Edit in Theme Creator" = "在主題建立器中編輯";
+"Remove / Unload Theme" = "移除 / 卸載主題";
+"Flashing Theme…" = "正在刷入主題…";
+"Retry Flash Theme" = "重試刷入主題";
+"Flash Theme to iPhone" = "將主題刷入 iPhone";
+"Flash & Language Target" = "刷入與語言目標";
+"System Caches" = "系統快取";
+"TelephonyUI-10 (iOS 18+)" = "TelephonyUI-10（iOS 18+）";
+"TelephonyUI-9 (iOS 16–17)" = "TelephonyUI-9（iOS 16–17）";
+"TelephonyUI-8 (iOS 14–15)" = "TelephonyUI-8（iOS 14–15）";
+"Universal (All)" = "通用（全部）";
+"System Language" = "系統語言";
+"Font Weight / Style" = "字重 / 樣式";
+"Universal mode flashes ~600 files for all languages & Bold text. Selecting a specific language (e.g. Ukrainian) speeds up flashing dramatically." = "通用模式會為所有語言和粗體文字刷入約 600 個檔案。選擇特定語言（例如烏克蘭語）可大幅加快刷入速度。";
+"Fast mode selected: only targets %@ with %@." = "已選擇快速模式：僅針對 %@ 且 %@。";
+"Slice Mode" = "切片模式";
+"Export .passthm..." = "匯出 .passthm…";
+"Clear All" = "全部清除";
+"Poster Image" = "整圖素材";
+"Select Photo for Keypad…" = "為鍵盤選擇照片…";
+"Change Photo…" = "更換照片…";
+"Choose Poster Image Source" = "選擇整圖素材來源";
+"Slicing Style" = "切片樣式";
+"Seamless Poster" = "無縫整圖";
+"Circle Buttons" = "圓形按鍵";
+"Artwork is clipped into individual circular button icons." = "素材會被裁切為一個個圓形按鍵圖示。";
+"Seamless artwork spans across dialer keys without circular cuts (Adobe Dog style)." = "素材橫跨整個撥號鍵盤，不做圓形裁切（Adobe Dog 風格）。";
+"Zoom & Framing" = "縮放與構圖";
+"Reset Position" = "重設位置";
+"Drag anywhere on the dialer preview to reposition" = "在撥號鍵盤預覽上任意拖曳以重新定位";
+"Tap a button row to assign a custom image." = "點擊某一按鍵列以指定自訂圖片。";
+"Key %@" = "按鍵 %@";
+"Choose Key %@ Image Source" = "選擇按鍵 %@ 的圖片來源";
+"Drag preview to reposition" = "拖曳預覽以重新定位";
+"%.1fx" = "%.1fx";
+
+/* ---------- 桌布類型 ---------- */
+"Collections" = "精選合輯";
+"Suggested Photos" = "推薦照片";
+"Mercury" = "Mercury";
